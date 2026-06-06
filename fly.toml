@@ -1,0 +1,12 @@
+app = "sol-micro-scalper"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  DRY_RUN = "false"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
